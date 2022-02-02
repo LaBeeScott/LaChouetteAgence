@@ -864,8 +864,9 @@ h4 {
   margin-right: auto;
   padding: 0;
 }
-.row ul h3 {
+.row ul span {
   color: #000000 !important;
+  font-size: large;
 }
 
 .row ul li a {
