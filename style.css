@@ -864,13 +864,14 @@ h4 {
   margin-right: auto;
   padding: 0;
 }
-.row ul span {
+.row ul {
   color: #000000 !important;
-  font-size: large;
+  font-size: 16px;
 }
 
 .row ul li a {
   color: #000000 !important;
+  font-size: 14px;
 }
 
 @media (max-width: 1024px) {
