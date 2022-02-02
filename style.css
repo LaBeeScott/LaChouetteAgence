@@ -693,7 +693,15 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
+}
+
+span {
+  font-size: 14px;
+}
+
+.added-p {
+  font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -757,7 +765,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .portfolio-thumb {
@@ -796,7 +804,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -855,6 +863,13 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+}
+.row ul h3 {
+  color: #000000 !important;
+}
+
+.row ul li a {
+  color: #000000 !important;
 }
 
 @media (max-width: 1024px) {
