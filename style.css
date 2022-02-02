@@ -864,9 +864,8 @@ h4 {
   margin-right: auto;
   padding: 0;
 }
-.row ul {
+.row-partners {
   color: #000000 !important;
-  font-size: 16px;
 }
 
 .row ul li a {
