@@ -47,6 +47,9 @@ a:hover {
 .added-h2 {
   padding: 0 10%;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .bloc-lg {
@@ -376,6 +379,15 @@ a:hover {
   flex-direction: column;
 }
 
+.col-sm-6 a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bgc-atomic-tangerine .row .col-sm-12 p {
+  color: #000000 !important;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -702,6 +714,9 @@ span {
 
 .added-p {
   font-style: italic;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tight-width-whitespace {
@@ -765,7 +780,7 @@ h4 {
 }
 
 .white {
-  color: black !important;
+  color: white !important;
 }
 
 .portfolio-thumb {
@@ -800,7 +815,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #ca8f2f;
 }
 
 .tc-white {
@@ -870,7 +885,7 @@ h4 {
 
 .row ul li a {
   color: #000000 !important;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (max-width: 1024px) {
@@ -1068,15 +1083,11 @@ h4 {
   .close-lightbox {
     display: inline-block;
   }
-  .blocsapp-device-iphone5 {
-    background-size: 216px 425px;
-    padding-top: 60px;
-    width: 216px;
-    height: 425px;
-  }
-  .blocsapp-device-iphone5 img {
-    width: 180px;
-    height: 320px;
+
+  .col-sm-6 a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
   }
 }
 
