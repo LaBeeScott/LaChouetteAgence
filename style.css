@@ -413,9 +413,7 @@ nav .caret {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
 }
-button {
-  outline: none !important;
-}
+
 .btn-rd {
   border-radius: 40px;
 }
