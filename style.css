@@ -6,6 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a,
+img,
+button :focus {
+  border-bottom: solid #000;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -291,10 +298,6 @@ a:hover {
 }
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
-}
-.nav > li a:hover,
-.nav > li a:focus {
-  background: transparent;
 }
 .navbar-toggle {
   margin: 10px 10px 0 0;
